@@ -1,0 +1,260 @@
+
+ **************************************************
+ Thank you for using the Noel-Onuchic-Whitford 
+ Structure-Based Model (SMOG) software, Version 1.2.3          
+
+ Primary references:
+
+ All-Atom Models
+ Whitford et al. Proteins. 75, 430-441, 2009.
+
+ C-alpha Protein Model
+ Clementi et al. J Mol Biol. 298, 937-953, 2000.
+
+ SMOG software
+ Noel, Levi, Raghunathan, Lammert, Hayes,
+ Onuchic and Whitford.  PLOS Comp. Biol. 2016
+ DOI: 10.1371/journal.pcbi.1004794
+ **************************************************
+
+ System will be given a buffer of (in A): 
+   10.000000000000000        10.000000000000000        10.000000000000000     
+ All-Atom  graining will be used
+ checked pdb file.  All atoms were recognized.
+ PDB file read in
+ NOTE: This webtool only uses coordinate precision to 10^-2 A
+
+ GENERIC WARNING:  You are including DNA and/or RNA.
+ Make sure your PDB file includes a D in front of   
+ residue names of DNA nucleic acids (DA,DG,DC,DT)   
+ and that RNA nucleic acids do not (i.e. A,C,G,U)   
+ If you did not, then you are about to receive many 
+ more messages regarding missing atoms...           
+
+ starting bond calculations
+ bonds done   4.00003046E-05 seconds elapsed
+ starting bond angle calculations
+ bond  angles done   1.21001154E-04 seconds elapsed
+ starting dihedral calculations
+ dihedrals done   3.84001061E-04 seconds elapsed
+ starting contact calculations
+ A cut-off distance will be used for calculating contacts
+   4.0000000000000000       for proteins
+   4.0000000000000000       for DNA
+   4.0000000000000000      for DNA-Protein
+ The XYZ dimensions of the grid used 
+ for contact calculations are
+   74.791000366210938        59.170013427734375        37.713012695312500     
+ contacts done  0.320494980     seconds elapsed
+ starting non-contact calculations
+ non-contacts will be given a repulsive distance of
+   2.5000000000000000      Angstroms
+ non-contacts will be given a repulsive epsilon of
+   1.0000000000000000E-002
+ repulsive done
+ non-contacts done   1.40070915E-05 seconds elapsed
+ writing parameters to file...
+ Contact is suspiciously short!! 
+ odd contact between atoms          217         200
+ Contact is suspiciously short!! 
+ odd contact between atoms          217         212
+ Contact is suspiciously short!! 
+ odd contact between atoms          217         213
+ WARNING: bond number           1 is missing an atom
+ attempting to connect atoms (gro numbering)           0           0
+
+ WARNING: bond number           2 is missing an atom
+ attempting to connect atoms (gro numbering)           0           0
+
+ WARNING: bond number           3 is missing an atom
+ attempting to connect atoms (gro numbering)           0           0
+
+ WARNING: bond number           4 is missing an atom
+ attempting to connect atoms (gro numbering)           0           1
+
+ unusually long bond
+   192    193 1  0.43989E+00  0.20000E+05
+ unusually long bond
+   215    216 1  0.28830E+00  0.20000E+05
+ unusually long bond
+   601    602 1  0.24776E+00  0.20000E+05
+ unusually long bond
+  1421   1422 1  0.20449E+00  0.20000E+05
+ WARNING: bond angle number           1 is missing an atom
+ attempting to connect atoms (gro numbering)           0           0           0
+
+ WARNING: bond angle number           2 is missing an atom
+ attempting to connect atoms (gro numbering)           0           0           0
+
+ WARNING: bond angle number           3 is missing an atom
+ attempting to connect atoms (gro numbering)           1           0           0
+
+ WARNING: bond angle number           4 is missing an atom
+ attempting to connect atoms (gro numbering)           0           0           0
+
+ WARNING: bond angle number           5 is missing an atom
+ attempting to connect atoms (gro numbering)           0           0           1
+
+ WARNING: bond angle number           6 is missing an atom
+ attempting to connect atoms (gro numbering)           0           0           1
+
+ WARNING: bond angle number           7 is missing an atom
+ attempting to connect atoms (gro numbering)           0           1           2
+
+ WARNING: Bond angle is under 100 degrees.
+ Your structure may be strange. 
+ Offending bond between atoms
+         127         128         130
+
+ WARNING: Bond angle is over 140 degrees!
+ Your structure may be strange, and this 
+ may lead to spikes in energy (see FAQ page)
+ Offending bond between atoms
+         191         192         193
+
+ WARNING: Bond angle is under 100 degrees.
+ Your structure may be strange. 
+ Offending bond between atoms
+         192         193         194
+
+ WARNING: Bond angle is under 100 degrees.
+ Your structure may be strange. 
+ Offending bond between atoms
+         192         193         196
+
+ WARNING: Bond angle is under 100 degrees.
+ Your structure may be strange. 
+ Offending bond between atoms
+         192         193         195
+
+ WARNING: Bond angle is under 100 degrees.
+ Your structure may be strange. 
+ Offending bond between atoms
+         214         215         216
+
+ WARNING: Bond angle is under 100 degrees.
+ Your structure may be strange. 
+ Offending bond between atoms
+         215         216         217
+
+ WARNING: Bond angle is under 100 degrees.
+ Your structure may be strange. 
+ Offending bond between atoms
+         215         216         218
+
+ WARNING: Bond angle is under 100 degrees.
+ Your structure may be strange. 
+ Offending bond between atoms
+         482         493         495
+
+ WARNING: Bond angle is under 100 degrees.
+ Your structure may be strange. 
+ Offending bond between atoms
+         558         559         560
+
+ WARNING: Bond angle is under 100 degrees.
+ Your structure may be strange. 
+ Offending bond between atoms
+         559         560         563
+
+ WARNING: Bond angle is under 100 degrees.
+ Your structure may be strange. 
+ Offending bond between atoms
+         579         580         582
+
+ WARNING: Bond angle is under 100 degrees.
+ Your structure may be strange. 
+ Offending bond between atoms
+         601         602         603
+
+ WARNING: Bond angle is under 100 degrees.
+ Your structure may be strange. 
+ Offending bond between atoms
+         601         602         605
+
+ WARNING: Bond angle is over 140 degrees!
+ Your structure may be strange, and this 
+ may lead to spikes in energy (see FAQ page)
+ Offending bond between atoms
+         601         602         604
+
+ WARNING: Bond angle is under 100 degrees.
+ Your structure may be strange. 
+ Offending bond between atoms
+         665         666         668
+
+ WARNING: Bond angle is under 100 degrees.
+ Your structure may be strange. 
+ Offending bond between atoms
+         897         898         900
+
+ WARNING: Bond angle is over 140 degrees!
+ Your structure may be strange, and this 
+ may lead to spikes in energy (see FAQ page)
+ Offending bond between atoms
+         958         959         960
+
+ WARNING: Bond angle is under 100 degrees.
+ Your structure may be strange. 
+ Offending bond between atoms
+         959         960         963
+
+ WARNING: Bond angle is under 100 degrees.
+ Your structure may be strange. 
+ Offending bond between atoms
+         959         960         962
+
+ WARNING: Bond angle is under 100 degrees.
+ Your structure may be strange. 
+ Offending bond between atoms
+        1063        1064        1065
+
+ WARNING: Bond angle is under 100 degrees.
+ Your structure may be strange. 
+ Offending bond between atoms
+        1064        1065        1068
+
+ WARNING: Bond angle is under 100 degrees.
+ Your structure may be strange. 
+ Offending bond between atoms
+        1154        1155        1157
+
+ WARNING: Bond angle is over 140 degrees!
+ Your structure may be strange, and this 
+ may lead to spikes in energy (see FAQ page)
+ Offending bond between atoms
+        1340        1341        1342
+
+ WARNING: Bond angle is under 100 degrees.
+ Your structure may be strange. 
+ Offending bond between atoms
+        1341        1342        1345
+
+ WARNING: Bond angle is under 100 degrees.
+ Your structure may be strange. 
+ Offending bond between atoms
+        1421        1422        1424
+
+ WARNING: Bond angle is under 100 degrees.
+ Your structure may be strange. 
+ Offending bond between atoms
+        1449        1458        1460
+
+ WARNING: Bond angle is under 100 degrees.
+ Your structure may be strange. 
+ Offending bond between atoms
+        1545        1546        1549
+
+ WARNING: dihedral number           1 is missing an atom
+ attempting to connect atoms(gro numbering)           0           0           1           2
+
+ WARNING: dihedral number           2 is missing an atom
+ attempting to connect atoms(gro numbering)           0           0           1           2
+
+ WARNING: dihedral number           3 is missing an atom
+ attempting to connect atoms(gro numbering)           0           0           1           2
+
+ WARNING: dihedral number           4 is missing an atom
+ attempting to connect atoms(gro numbering)           0           1           2           3
+
+ SUCCESS : GRO and TOP files have been written.

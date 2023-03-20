@@ -1,0 +1,102 @@
+
+ **************************************************
+ Thank you for using the Noel-Onuchic-Whitford 
+ Structure-Based Model (SMOG) software, Version 1.2.3          
+
+ Primary references:
+
+ All-Atom Models
+ Whitford et al. Proteins. 75, 430-441, 2009.
+
+ C-alpha Protein Model
+ Clementi et al. J Mol Biol. 298, 937-953, 2000.
+
+ SMOG software
+ Noel, Levi, Raghunathan, Lammert, Hayes,
+ Onuchic and Whitford.  PLOS Comp. Biol. 2016
+ DOI: 10.1371/journal.pcbi.1004794
+ **************************************************
+
+ System will be given a buffer of (in A): 
+   10.000000000000000        10.000000000000000        10.000000000000000     
+ All-Atom  graining will be used
+ checked pdb file.  All atoms were recognized.
+ PDB file read in
+ NOTE: This webtool only uses coordinate precision to 10^-2 A
+
+ GENERIC WARNING:  You are including DNA and/or RNA.
+ Make sure your PDB file includes a D in front of   
+ residue names of DNA nucleic acids (DA,DG,DC,DT)   
+ and that RNA nucleic acids do not (i.e. A,C,G,U)   
+ If you did not, then you are about to receive many 
+ more messages regarding missing atoms...           
+
+ starting bond calculations
+ bonds done   3.58000398E-04 seconds elapsed
+ starting bond angle calculations
+ bond  angles done   2.59000808E-04 seconds elapsed
+ starting dihedral calculations
+ dihedrals done   4.14799899E-03 seconds elapsed
+ starting contact calculations
+ A cut-off distance will be used for calculating contacts
+   4.0000000000000000       for proteins
+   4.0000000000000000       for DNA
+   4.0000000000000000      for DNA-Protein
+ The XYZ dimensions of the grid used 
+ for contact calculations are
+   77.501007080078125        68.425003051757812        33.245010375976562     
+ contacts done  0.332356006     seconds elapsed
+ starting non-contact calculations
+ non-contacts will be given a repulsive distance of
+   2.5000000000000000      Angstroms
+ non-contacts will be given a repulsive epsilon of
+   1.0000000000000000E-002
+ repulsive done
+ non-contacts done   1.20103359E-05 seconds elapsed
+ writing parameters to file...
+ WARNING: bond number           1 is missing an atom
+ attempting to connect atoms (gro numbering)           0           0
+
+ WARNING: bond number           2 is missing an atom
+ attempting to connect atoms (gro numbering)           0           0
+
+ WARNING: bond number           3 is missing an atom
+ attempting to connect atoms (gro numbering)           0           0
+
+ WARNING: bond number           4 is missing an atom
+ attempting to connect atoms (gro numbering)           0           1
+
+ WARNING: bond angle number           1 is missing an atom
+ attempting to connect atoms (gro numbering)           0           0           0
+
+ WARNING: bond angle number           2 is missing an atom
+ attempting to connect atoms (gro numbering)           0           0           0
+
+ WARNING: bond angle number           3 is missing an atom
+ attempting to connect atoms (gro numbering)           1           0           0
+
+ WARNING: bond angle number           4 is missing an atom
+ attempting to connect atoms (gro numbering)           0           0           0
+
+ WARNING: bond angle number           5 is missing an atom
+ attempting to connect atoms (gro numbering)           0           0           1
+
+ WARNING: bond angle number           6 is missing an atom
+ attempting to connect atoms (gro numbering)           0           0           1
+
+ WARNING: bond angle number           7 is missing an atom
+ attempting to connect atoms (gro numbering)           0           1           2
+
+ WARNING: dihedral number           1 is missing an atom
+ attempting to connect atoms(gro numbering)           0           0           1           2
+
+ WARNING: dihedral number           2 is missing an atom
+ attempting to connect atoms(gro numbering)           0           0           1           2
+
+ WARNING: dihedral number           3 is missing an atom
+ attempting to connect atoms(gro numbering)           0           0           1           2
+
+ WARNING: dihedral number           4 is missing an atom
+ attempting to connect atoms(gro numbering)           0           1           2           3
+
+ SUCCESS : GRO and TOP files have been written.
