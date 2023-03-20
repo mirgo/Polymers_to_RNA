@@ -24,6 +24,8 @@ Sudo apt-get install curl
 For all following code, 
 1. {shape} refers to any shape string from (linear, N3B4, N5B4, plus, T)
 2. {trial} refers to any trial number from (*blank*, 2, 3)
+3. {mttrna} refers to any mt-tRNA from (leu, leuM, lys, lysM, met, val)
+4. {traj} refers to trajectory trials from {sim_70, sim_70_2, sim_70_3}
 
 ## LAMMPS and Branched Polymers
 
@@ -45,3 +47,5 @@ For all following code,
 - Scripts for running in GROMACS are under `mttrna/scripts`, as `.mdp` files.
 - Scripts for measurements in VMD are under `mttrna/scripts`, as `.tcl` files.
 - Scripts for analyzing mt-tRNA data are under `mttrna/scripts`, as `.ipynb` files.
+- Trajecotry files are under `mttrna/data/tertiary/{mttrna}/{traj}` as `.xtc` files.*
+*Note, some trajectory files aren't included again due to large file limits on Github.
