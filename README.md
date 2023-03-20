@@ -37,6 +37,7 @@ For all following code,
 - Scripts for creating or analyzing polymer data are under `BPolymers/scripts`, as `.ipynb` files.
 - Trajectory files* are under `BPolymers/data/{shape}/trjs{trial}`.
 - Log files are under `BPolymers/data/{shape}/logs{trial}`.
+
 *Note, the largest trajectory files aren't included due to 100 MB size limit on Github.
 
 ## GROMACS and mt-tRNA
@@ -47,5 +48,8 @@ For all following code,
 - Scripts for running in GROMACS are under `mttrna/scripts`, as `.mdp` files.
 - Scripts for measurements in VMD are under `mttrna/scripts`, as `.tcl` files.
 - Scripts for analyzing mt-tRNA data are under `mttrna/scripts`, as `.ipynb` files.
-- Trajecotry files are under `mttrna/data/tertiary/{mttrna}/{traj}` as `.xtc` files.*
+- Tertiary PDB files for mt-tRNAs are under `mttrna/data/tertiary/{mttrna}` as `.pdb` files.
+- Trajectory files are under `mttrna/data/tertiary/{mttrna}/{traj}` as `.xtc` files.*
+
+
 *Note, some trajectory files aren't included again due to large file limits on Github.
