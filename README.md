@@ -40,6 +40,14 @@ For all following code,
 
 *Note, the largest trajectory files aren't included due to 100 MB size limit on Github.
 
+### Running Simulations
+
+```
+env OMP_NUM_THREADS=2 lmp -sf omp -in *.lam
+
+```
+where * refers to the .lam file name. 
+
 ## GROMACS and mt-tRNA
 
 ### Organization
