@@ -1,4 +1,4 @@
-# Polymers_and_RNA
+# Polymers and RNA
 
 ## Introduction
 
